@@ -89,28 +89,28 @@ Softmax Output (6 classes)
 
 ## 📁 Project Structure
 
-emotion-classifier/
-│
-├── data/
-│ ├── train.txt
-│ ├── val.txt
-│ └── test.txt
-│
-├── model/
-│ ├── emotion_classifier.py
-│ └── data_loader.py
-│
-├── utils/
-│ ├── preprocessing.py
-│ └── metrics.py
-│
-├── app.py # Streamlit frontend
-├── train.py # Training pipeline
-├── evaluate.py # Evaluation script
-├── tokenizer.pkl # Saved tokenizer
-├── emotion_model.h5 # Trained model
-├── requirements.txt
-└── README.md
+  emotion-classifier/
+  │
+  ├── data/
+  │ ├── train.txt
+  │ ├── val.txt
+  │ └── test.txt
+  │
+  ├── model/
+  │ ├── emotion_classifier.py
+  │ └── data_loader.py
+  │
+  ├── utils/
+  │ ├── preprocessing.py
+  │ └── metrics.py
+  │
+  ├── app.py # Streamlit frontend
+  ├── train.py # Training pipeline
+  ├── evaluate.py # Evaluation script
+  ├── tokenizer.pkl # Saved tokenizer
+  ├── emotion_model.h5 # Trained model
+  ├── requirements.txt
+  └── README.md
 
 ## 📁 Create Virtual Environment
 python -m venv env
@@ -131,6 +131,8 @@ python train.py
 - Lower performance on **Surprise** due to class imbalance
 
 ---
+
+[Classification Report](assets/classification_report.png)
 
 ## 📈 Evaluation Metrics
 
