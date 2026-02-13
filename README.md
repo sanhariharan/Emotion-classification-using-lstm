@@ -107,7 +107,7 @@ python train.py
 
 ---
 
-[Classification Report](assets/classification_report.png)
+[Classification Report](metrics_report.png)
 
 ## 📈 Evaluation Metrics
 
